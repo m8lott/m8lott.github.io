@@ -1,0 +1,101 @@
+.select {
+    font-family: "Lato", sans-serif;
+	position: relative;
+	width: 100%;
+    max-width: 380px;
+    background-color: #FFFFFFD9;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+}
+.select.is-active .select__body {
+	display: block;
+	width: 100%;
+    max-width: 380px;
+}
+
+.select__header {
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: flex;
+	white-space: nowrap;
+
+}
+.select__current {
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #272733;
+	padding: 8px;
+	@media screen and (max-width: 574px) {
+        font-size:15px;
+       }
+}
+.select__icon {
+	align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: center;
+	height: 40px;
+	margin-left: auto;
+	text-align: center;
+	width: 40px;
+    transition: 0.5s;
+}
+
+.select__icon.act {
+    align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: center;
+	height: 40px;
+	margin-left: auto;
+	text-align: center;
+	width: 40px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
+.select__body {
+	border: 1px solid #cccccc;
+	border-top: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 100%;
+    z-index: 10;
+    background-color: #FFFFFFD9;
+    opacity: 0;
+    width: 100%;
+    max-width: 380px;
+}
+.select__body.act {
+    border: 1px solid #cccccc;
+	border-top: 0;
+	display: block;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 100%;
+    z-index: 10;
+    background-color: #FFFFFF;
+    opacity: 1;
+	width: 100%;
+    max-width: 380px;
+}
+.select__item {
+	cursor: pointer;
+	padding: 8px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #272733;
+	@media screen and (max-width: 574px) {
+        font-size:15px;
+       }
+}
+
+.select__item:hover {
+	background-color: #f2f2f2;
+}

@@ -1,0 +1,89 @@
+/*BANER*/
+.baner {
+    font-family: "Lato", sans-serif;
+    background-image: url('../assets/img/bannerImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 987px;
+}
+.baner__container {
+ padding: 206px 20px 0 20px;
+}
+
+
+.baner__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    max-width: 780px;
+    padding-bottom: 60px;
+    @media screen and (max-width: 768px) {
+       font-size:40px;
+
+      }
+      @media screen and (max-width: 574px) {
+        font-size:30px;
+        padding-bottom:30px;
+       }
+
+}
+.baner__title p {
+    color: #000000;
+}
+.baner__title span {
+    color:#43ABF0;
+}
+.baner__content {
+    padding-bottom: 60px;
+    @media screen and (max-width: 574px) {
+        padding-bottom:30px;
+       }
+}
+.baner__content span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+    @media screen and (max-width: 574px) {
+        font-size: 16px;
+       }
+}
+.list {
+    padding-left: 20px;
+}
+.list li::before {
+    content: "-";
+    margin-right: 5px; 
+}
+.list__item {
+    font-size: 13px;
+    line-height: 15.6px;
+    color:#000000;
+}
+.baner__buttons {
+    display: flex;
+    gap: 30px;
+    @media screen and (max-width: 475px) {
+       gap:15px;
+       }
+}
+.baner__button {
+font-size: 13px;
+line-height: 15.6px;
+text-align: center;
+color: #2A2B30;
+border: 1px solid #6F6D7B;
+padding: 15px 31px;
+max-width: 183px;
+border-radius: 4px;
+background-color: #FFFFFF;
+transition: 0.5s;
+
+}
+.baner__button:hover {
+    background-color: #3E9CDC;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}

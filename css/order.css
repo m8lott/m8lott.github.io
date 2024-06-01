@@ -1,0 +1,227 @@
+/*ORDER*/
+.order {
+    font-family: "Lato", sans-serif;
+}
+
+.order__container {
+    background-color: #272733;
+    background-image: url('../assets/img/formImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.order__top {
+text-align: center;
+padding-bottom: 80px;
+@media screen and (max-width: 678px) {
+    padding-bottom: 50px;
+   }
+}
+
+.order__title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.2px;
+    color:#FFFFFF;
+    @media screen and (max-width: 678px) {
+        font-size:30px;
+       }
+       @media screen and (max-width: 574px) {
+        font-size:25px;
+       }
+}
+.order__title span {
+    color:#43ABF0;;
+}
+.order__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #BBBBBB;
+    @media screen and (max-width: 574px) {
+        font-size:16px;
+       }
+}
+.order__img {
+    padding-bottom: 80px;
+    @media screen and (max-width: 678px) {
+        padding-bottom: 50px;
+       }
+}
+.order__img-element {
+    width: 100%;
+    max-width: 1168px;
+}
+.order__form {
+ width: 100%;
+}
+
+.order__form-element {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.order__form-top {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 90%;
+    max-width: 1170px;
+    @media screen and (max-width: 678px) {
+        flex-direction:column;
+        align-items: flex-start;
+       }
+}
+.order__form-bottom {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    width: 100%;
+    max-width: 1170px;
+    @media screen and (max-width: 992px) {
+        flex-direction:column;
+        gap:15px;
+       }
+
+}
+.order__form-submit {
+    width: 100%;
+    max-width: 1170px;
+    text-align: center;
+    padding-bottom: 67px;
+}
+
+
+.order__form-top__input {
+    width: 100%;
+    max-width: 370px;
+    outline: none;
+    background-color: #FFFFFFD9;
+    border: 1px solid #FFFFFF;
+    color: #272733;
+    font-size: 18px;
+    line-height: 21.6px;
+    padding: 12px 0 12px 10px;
+    @media screen and (max-width: 574px) {
+        font-size:15px;
+       }
+}
+
+.order__form-bottom-range {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.order__form-submit__btn {
+    width: 100%;
+    max-width: 370px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #3E9CDC;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 18px 0 18px 0;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.order__form-submit__btn:hover {
+    transition: 0.5s;
+    background-color: #FFFFFF;
+    color: #2A2B30;
+    border: 1px solid #6F6D7B;
+}
+
+.order__form-bottom-range__label {
+font-size: 18px;
+line-height: 21.6px;
+color: #FFFFFF;
+@media screen and (max-width: 574px) {
+    font-size:15px;
+   }
+}
+.order__form-bottom-range-top {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.order__form-bottom-range__percent {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #FFFFFFD9;
+    @media screen and (max-width: 574px) {
+        font-size:15px;
+       }
+}
+.order__form-bottom-range__range {
+    -webkit-appearance: none;
+    width: 100%;
+    max-width: 770px;
+    height: 6px;
+    background-color:  #FFFFFFB2;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+}
+.order__form-bottom-range__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 23px;
+    height: 23px;
+    background: #42A9ED;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.order__form-bottom-file__file_upload {
+    display: none;
+}
+.order__form-bottom-file {
+    width: 100%;
+    flex: 1;
+}
+.order__form-bottom-file__file_upload-custom {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    border-radius: 3px;
+    border: 2px solid #3E9CDC;
+    background-color: #FFFFFF;
+    padding: 14px 0 14px 0;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.5s;
+    @media screen and (max-width: 992px) {
+        width: 100%;
+        max-width:370px;
+       }
+
+}
+.order__form-bottom-file__file_upload-custom:hover {
+    background-color: #3E9CDC;
+    color: black;
+    border: 2px solid #FFFFFF;
+    transition: 0.5s;
+}
+.order__form-bottom-file__file_upload-custom-img {
+    width: 30px;
+    height: 30px;
+}
