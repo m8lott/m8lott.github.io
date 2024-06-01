@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+     rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+<div class="header__container">
+<div class="header__logo">
+   <a href="#"><img src="../assets/img/logo.svg" alt="LoremIpsum.Net"></a>
+</div>
+<nav class="header__menu">
+<ul class="menu">
+    <li class="menu__item"><a href="#" class="menu__link">БИЗНЕС</a></li>
+    <li class="menu__item"><a href="#" class="menu__link">О НАС</a></li>
+    <li class="menu__item"><a href="#" class="menu__link">ЦЕНЫ</a></li>
+    <li class="menu__item"><a href="#" class="menu__link">ОФОРМИТЬ ЗАКАЗ</a></li>
+</ul>
+</nav>
+<div class="burger-menu">
+    <span></span>
+  </div>
+  <div class="header__mobile-menu">
+    <div class="header__mobile-menu-header">
+      <div class="title">
+        <a href="#"><img src="../assets/img/logo.svg" alt="LoremIpsum.Net"></a>
+      </div>
+      <div>
+        <img class="close" src="../assets/img/mobileClose.svg" alt="Close menu">
+      </div>
+    </div>
+    <div class="header__mobile-menu-body">
+        <nav>
+            <ul class="mobile-menu">
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">БИЗНЕС</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">О НАС</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">ЦЕНЫ</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">ОФОРМИТЬ ЗАКАЗ</a></li>
+            </ul>
+            </nav>
+      </div>
+    </div>
+</div>
+</header>
+<section class="baner">
+<div class="baner__container">
+
+  <div class="baner__title">
+<p><span>LOREM IMPSUM</span> DOLOR SIT AMETCONSECTETUR <span>ADIPISCING</span</p>
+</div>
+<div class="baner__content">
+    <span>At vero eos et accusamus et iusto odio dignissimos ducimus!</span>
+    <ul class="list">
+      <li class="list__item">Totam rem aperiam eaque ipsa</li>
+      <li class="list__item">Sit voluptatem accusantium doloremque laudantium</li>
+      <li class="list__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+    </ul>
+</div>
+<div class="baner__buttons">
+    <a class="baner__button" href="#">ЗАКАЗАТЬ</a>
+    <a class="baner__button" href="#">ПОДРОБНЕЕ</a>
+</div>
+
+</div>
+</section>
+<section class="order">
+<div class="order__container">
+  <div class="order__top">
+    <div class="order__title">
+<p>ОФОРМЛЕНИЕ <span>ЗАКАЗА</span></p>
+    </div>
+    <div class="order__subtitle">
+      <p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+    </div>
+    </div>
+    <div class="order__img">
+      <img class="order__img-element" alt="" src="../assets/img/formImg1.svg">
+    </div>
+    <div class="order__form">
+      <form class="order__form-element" action="#" method="post">
+        <div class="order__form-top">
+          <div class="select is-active">
+            <div class="select__header">
+              <span class="select__current">Выберите тип системы</span>
+              <div class="select__icon">
+                <img src="../assets/img/select.svg" alt="">
+              </div>
+            </div>
+          
+            <div class="select__body">
+              <div class="select__item">
+                <img src="../assets/img/qiwi.svg" alt="qiwi">
+                Qiwi Wallet
+              </div>
+              <div class="select__item">
+                <img src="../assets/img/webmoney.svg" alt="webmoney">
+                Web Money
+              </div>
+              <div class="select__item">
+                <img src="../assets/img/yandex.svg" alt="yandex money">
+                Yandex Money
+              </div>
+            </div>
+          </div>
+          <input class="order__form-top__input" type="email" name="email" placeholder="Ваш e-mail">
+          <input class="order__form-top__input" type="text" name="name" placeholder="Ваше имя">
+        </div>
+        <div class="order__form-bottom">
+          <div class="order__form-bottom-range">
+            <div class="order__form-bottom-range-top">
+              <label class='order__form-bottom-range__label' for="progress">Sed ut perspiciatis, unde omnis iste natus</label>
+              <p id="percent" class="order__form-bottom-range__percent">50%</p>
+            </div>
+              <input type="range" id="range" name="volume" min="0" max="100" class="order__form-bottom-range__range">
+            </div>
+          <div class="order__form-bottom-file">
+            <input class="order__form-bottom-file__file_upload" type="file" id="file-upload" name="file-upload">
+            <div class="order__form-bottom-file__file_upload-custom">
+              <img class='order__form-bottom-file__file_upload-custom-img' src="../assets/img/upload.svg" alt="">
+              <label for="file-upload">
+              ПРИКРЕПИТЬ ФАЙЛ
+            </label>
+          </div>
+          </div>
+        </div>
+       <div class="order__form-submit">
+        <button class="order__form-submit__btn" type="submit">Отправить</button>
+       </div>
+      </form>
+    </div>
+</div>
+</section>
+<footer class="footer">
+<div class="footer__container">
+  <div class="footer__copyright">
+    <p class="footer__copyright-element">© 2018 «LoremIpsum.net» Все права защищены.</p>
+  </div>
+  <div class="footer__links">
+    <div class="footer__links-payment">
+      <div class="footer__links-payment-img">
+        <img class="footer__links-payment-img-element" src="../assets/img/footerBorder.svg" alt="border">
+      </div>
+      <ul class="systems">
+        <li class="systems__item"><a class="systems__link" href="#"><img class="systems__img" src="../assets/img/qiwi.svg">Qiwi wallet</a></li>
+        <li class="systems__item"><a class="systems__link" href="#"><img class="systems__img" src="../assets/img/yandex.svg">Yandex Money</a></li>
+        <li class="systems__item"><a class="systems__link" href="#"><img class="systems__img" src="../assets/img/webmoney.svg">Web Money</a></li>
+      </ul>
+    </div>
+    <div class="footer__links-contacts">
+      <div class="footer__links-contacts-img">
+        <img class="footer__links-contacts-img-element" src="../assets/img/footerBorder.svg" alt="border">
+      </div>
+      <ul class="contacts">
+        <li class="contacts__item"><a class="contacts__link" href="mailto:info@ipsum228.com"><img class="contacts__img" src="../assets/img/email.svg" alt="email">info@ipsum228.com</a></li>
+        <li class="contacts__item"><a class="contacts__link" href="#"><img class="contacts__img" src="../assets/img/vk.svg" alt="vk">Мы вконтакте</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
+</body>
+   <script src="../js/mobMenu.js"></script>
+   <script src="../js/customSelect.js"></script>
+   <script src="../js/inputRange.js"></script>
+</html>
